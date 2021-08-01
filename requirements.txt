@@ -1,0 +1,16 @@
+-> start with single page
+1. get cv button
+2. links to social media
+3. about me
+4. picture
+5. logo (maybe-last)
+6. Education, Skills
+7. footer - links to all
+8. some quote
+9. back to top button
+
+Examples:-
+https://www.adhamdannaway.com/
+https://andrewborstein.com/ - projects tab
+https://ejosue.com/about/
+http://findmatthew.com/
