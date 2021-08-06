@@ -19,28 +19,44 @@ body{
 .hero{
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
 }
-
+.hero .hero_top{
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    top: 62px;
+    left: 150px;
+    background-color: var(--heading);
+    animation: appear 2.5s linear;
+}
+.hero .hero_bottom{
+    position: absolute;
+    z-index: -1;
+    width: 70%;
+    height: 50%;
+    bottom: 118px;
+    right: 134px;
+    background-color: var(--heading);
+    animation: appear 2.5s linear;
+}
 .hero .hero_content{
     display: flex;
+    position: absolute;
     width: 70%;
     height: 50%;
     padding: 5em;
-    /* background-color: mediumorchid; */
     align-items: center;
-}
-
-.hero .hero_content .hero_img{
-    float: right;
-    margin-left: 15%;
+    background-color: var(--body);
 }
 
 .hero .hero_content .hero_text{
     float: left;
-    margin-right: 15%;
+    width: 60%;
+    z-index: 3;
+    animation: fadeleft 1.2s linear;
 }
 
 .hero .hero_content .hero_text h1{
@@ -64,15 +80,17 @@ body{
     margin-top: 15%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
-    width: auto;
+    width: 50%;
     height: 3em;
     padding: 1em;
+    text-align: left;
     background-color: var(--heading);
     color: var(--body);
     border-radius: 15px;
+    cursor: pointer;
     border-style: none;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.35);
-    transition: 0.9s ease-in;
+    transition: 0.2s;
 }
 
 .hero .hero_content .hero_text .copyEmail:hover{
@@ -80,6 +98,74 @@ body{
     color: var(--heading);
     box-shadow: none;
 }
+
+
+.hero .hero_content .hero_text .copyEmail > i{
+    padding-right: 0.5em;
+}
+
+.hero .hero_content .hero_img{
+    width: 40%;
+    float: right;
+    margin-left: 10%;
+    animation: faderight 1.2s linear;
+}
+
+.hero .hero_content .hero_img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.scroll{
+    text-align: center;
+    height: 10vh;
+    animation: appear 2.5s linear;
+}
+
+.scroll p{
+    color: var(--heading);
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeleft{
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes faderight{
+    0% {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 
 
 /* ------------- Navbar ----------------- */
