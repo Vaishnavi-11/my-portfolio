@@ -1,16 +1,47 @@
 -> start with single page
-1. get cv button
-2. links to social media
-3. about me
+-> check for front page loading motions
+-> think landing page
+
+1. get cv button - alloted
+2. links to social media - alloted
+3. about me - alloted
 4. picture
 5. logo (maybe-last)
-6. Education, Skills
-7. footer - links to all
+6. Education, Skills - alloted
+7. footer - links to all - alloted
 8. some quote
-9. back to top button
+9. back to top button - alloted
 
 Examples:-
 https://www.adhamdannaway.com/
 https://andrewborstein.com/ - projects tab
 https://ejosue.com/about/
 http://findmatthew.com/
+https://github.com/john-smilga/react-projects
+https://www.freecodecamp.org/news/build-portfolio-website-react/
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+colors:
+773344
+E3B5A4
+F5E9E2
+0B0014
+D44D5C
