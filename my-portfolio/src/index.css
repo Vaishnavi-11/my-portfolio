@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --body: aliceblue;
+    --heading: #0B0014;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--body);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ------------- Hero ----------------- */
+.hero{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero_content{
+    display: flex;
+    width: 70%;
+    height: 50%;
+    padding: 5em;
+    /* background-color: mediumorchid; */
+    align-items: center;
+}
+
+.hero .hero_content .hero_img{
+    float: right;
+    margin-left: 15%;
+}
+
+.hero .hero_content .hero_text{
+    float: left;
+    margin-right: 15%;
+}
+
+.hero .hero_content .hero_text h1{
+    font-size: 70px;
+    color: var(--heading);
+    margin-bottom: 2%;
+}
+
+.hero .hero_content .hero_text h3{
+    font-size: 20px;
+    color: var(--heading);
+    margin-bottom: 1.5%;
+}
+
+.hero .hero_content .hero_text p{
+    font-size: 15px;
+    color: var(--heading);
+}
+
+.hero .hero_content .hero_text .copyEmail{
+    margin-top: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    width: auto;
+    height: 3em;
+    padding: 1em;
+    background-color: var(--heading);
+    color: var(--body);
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.35);
+    transition: 0.9s ease-in;
+}
+
+.hero .hero_content .hero_text .copyEmail:hover{
+    background-color: #E0777D;
+    color: var(--heading);
+    box-shadow: none;
+}
+
+
+/* ------------- Navbar ----------------- */
+
+.navbar{
+    width: 100vw;
+    height: 12vh;
+    background-color: var(--heading);
+}
