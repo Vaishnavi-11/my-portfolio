@@ -18,7 +18,7 @@ body{
 /* ------------- Hero ----------------- */
 .hero{
     display: flex;
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     justify-content: center;
     align-items: center;
@@ -27,8 +27,8 @@ body{
     position: absolute;
     width: 70%;
     height: 50%;
-    top: 62px;
-    left: 150px;
+    top: 59px;
+    left: 143px;
     background-color: var(--heading);
     animation: appear 2.5s linear;
 }
@@ -37,8 +37,8 @@ body{
     z-index: -1;
     width: 70%;
     height: 50%;
-    bottom: 118px;
-    right: 134px;
+    bottom: 132px;
+    right: 143px;
     background-color: var(--heading);
     animation: appear 2.5s linear;
 }
@@ -60,33 +60,33 @@ body{
 }
 
 .hero .hero_content .hero_text h1{
-    font-size: 70px;
+    font-size: 4.375em;
     color: var(--heading);
     margin-bottom: 2%;
 }
 
 .hero .hero_content .hero_text h3{
-    font-size: 20px;
+    font-size: 1.25em;
     color: var(--heading);
     margin-bottom: 1.5%;
 }
 
 .hero .hero_content .hero_text p{
-    font-size: 15px;
+    font-size: 0.9375em;
     color: var(--heading);
 }
 
 .hero .hero_content .hero_text .copyEmail{
     margin-top: 15%;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px;
-    width: 50%;
+    font-size: 0.9375em;
+    width: 280px;
     height: 3em;
     padding: 1em;
     text-align: left;
     background-color: var(--heading);
     color: var(--body);
-    border-radius: 15px;
+    border-radius: 0.9375em;
     cursor: pointer;
     border-style: none;
     box-shadow: 3px 3px rgba(0, 0, 0, 0.35);
@@ -171,7 +171,84 @@ body{
 /* ------------- Navbar ----------------- */
 
 .navbar{
-    width: 100vw;
+    position: sticky;
+    top: 0;
+    width: 100%;
     height: 12vh;
     background-color: var(--heading);
 }
+
+.navbar .navbar_content{
+    height: 100%;
+    color: var(--body);
+}
+
+.navbar .navbar_content .nav_left{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar_content .nav_left h1{
+    padding: 1em;
+}
+
+.navbar .navbar_content .nav_right{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar_content .nav_right a{
+    text-decoration: none;
+    margin: auto 3%;
+    padding: 0.5em;
+    color: var(--body);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navbar .navbar_content .nav_right a:after{
+    content: '';
+    margin: auto;
+    display: block;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+.navbar .navbar_content .nav_right a:hover:after{
+    width: 100%;
+	background: var(--body);
+}
+
+.navbar .navbar_content .nav_right a:last-child:hover:after,.navbar .navbar_content .nav_right a:last-child:after{
+    width: 0;
+    height: 3px;
+}
+
+.navbar .navbar_content .nav_right a:first-child{
+    margin-left: 20%;
+}
+
+.navbar .navbar_content .nav_right a:last-child{
+    border-radius: 1em;
+    transition: 1s;
+}
+
+.navbar .navbar_content .nav_right a:last-child:hover{
+    border-radius: 0.1em;
+    color: var(--heading);
+    background-color: #E0777D;
+}
+
+
+/* ------------- About ----------------- */
+
