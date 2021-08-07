@@ -20,7 +20,7 @@ function Hero() {
 
     return (
         <div>
-            <div className="hero">
+            <div id="hero" className="hero">
                 <div className="hero_top"></div>
                 <div className="hero_content">
                     <div className="hero_text">
