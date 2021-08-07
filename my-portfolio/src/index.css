@@ -252,3 +252,98 @@ body{
 
 /* ------------- About ----------------- */
 
+/* ------------- Footer ----------------- */
+.footer{
+    height: -25vh;
+    background-color: var(--heading);
+    color: var(--body);
+}
+
+.footer .footer_back{
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: -18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .footer_back .backtotop{
+    padding: 0.5em 2em;
+    background-color: var(--heading);
+    border-radius: 50%;
+}
+
+.footer .footer_back .backtotop a{
+    text-decoration: none;
+    color: var(--body);
+}
+
+.footer .footer_back .backtotop a i{
+    font-size: 2em;
+}
+
+.footer .footer_content{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.footer .footer_content .footer_links{
+    width: 50%;
+    height: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer_content .footer_links .footer_links_content,.footer .footer_content .footer_contact .footer_contact_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer_content .footer_contact{
+    width: 50%;
+    height: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer_content .footer_links .footer_links_content a{
+    text-decoration: none;
+    color: var(--body);
+    padding: 1em;
+}
+
+.footer .footer_content .footer_links .footer_links_content a:hover,
+.footer .footer_content .footer_contact .footer_contact_content a:hover,
+.footer .footer_back .backtotop a:hover{
+    opacity: 0.6;
+}
+
+.footer .footer_content .footer_contact .footer_contact_content a{
+    text-decoration: none;
+    color: var(--body);
+    padding: 1em;
+    font-size: 1em;
+}
+
+.footer .footer_content .footer_copyrights{
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.footer .footer_content .footer_copyrights .footer_copyrights_content{
+    text-align: center;
+}
