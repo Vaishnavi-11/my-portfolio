@@ -30,7 +30,7 @@ function Hero() {
                         <button className="copyEmail" onMouseEnter={hoverIn} onMouseLeave={hoverOut} onClick={mouseClick }><i className="fa fa-envelope"/>{buttonValue}</button>
                     </div>
                     <div className="hero_img">
-                        <img src={ data.image } alt="my-picture" />
+                        <img src={ data.image } alt="my-pic" />
                     </div>
                 </div>
                 <div className="hero_bottom"></div>

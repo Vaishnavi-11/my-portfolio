@@ -13,7 +13,7 @@ function Navbar() {
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
-                    <a href={data.resume} target="_blank" id="resume">Resume</a>
+                    <a href={data.resume} target="_blank" id="resume" rel="noreferrer">Resume</a>
                 </div>
             </div>
         </div>
