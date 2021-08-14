@@ -1,8 +1,7 @@
 import React from 'react'
 import ProjectCard from '../sections/ProjectCard'
-import { data } from '../data'
 
-function Projects() {
+function Projects(props) {
     return (
         <div id="projects" className="projects">
             <div className="project_heading">
@@ -11,7 +10,7 @@ function Projects() {
             </div>
             <div className="project_content">
                 {
-                    data.projects.map((project) => {
+                    props.projects.map((project) => {
                         return <div style={{display:'inline-block'}} key={project.id}>
                             <ProjectCard project={project}/>
                         </div>
