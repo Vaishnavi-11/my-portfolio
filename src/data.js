@@ -70,5 +70,73 @@ export const data = {
             languages: "Shell Scripting",
             repo: "https://github.com/Vaishnavi-11/FileSecuritySystem"
         }
+    ],
+    links: {
+        linkedin:"https://www.linkedin.com/in/vaishnavi-nagaraj-3a96541a0/",
+        instagram:"https://www.instagram.com/_vaishnavi91_/",
+        facebook:"https://m.facebook.com/vaishnavi.nagaraj.3",
+        whatsapp:"https://api.WhatsApp.com/send?phone=+917338138669"
+    },
+    location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.519183836754!2d77.54833731464412!3d12.874301990919772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDUyJzI3LjUiTiA3N8KwMzMnMDEuOSJF!5e0!3m2!1sen!2sin!4v1628358460710!5m2!1sen!2sin",
+    education: [
+        {
+            id: 1,
+            study: "B.E in Information Science and Engineering",
+            institute: "B.M.S College of Engineering",
+            grade: "9.8 CPGA",
+            year: "2019 - Current"
+        },
+        {
+            id: 2,
+            study: "Class 12",
+            institute: "Sri Bhagawan Mahaveer Jain College",
+            grade: "97.83%",
+            accomplishment: "State 8th Rank",
+            year: "2019"
+        },
+        {
+            id: 3,
+            study: "Class 10",
+            institute: "Acharya Patashala Public School",
+            grade: "92%",
+            year: "2017"
+        }
+    ],
+    certifications: [
+        {
+            id: 1,
+            course_name: "Web Design for Everybody Specialization",
+            platform: "Coursera",
+            institute: "University of Michigan",
+            date: "July 2020"
+        },
+        {
+            id: 2,
+            course_name: "Python for Everybody Specialization",
+            platform: "Coursera",
+            institute: "University of Michigan",
+            date: "June 2020"
+        },
+        {
+            id: 3,
+            course_name: "Programming in C++",
+            platform: "NPTEL",
+            institute: "Indian Institute of Science",
+            date: "December 2020"
+        },
+        {
+            id: 4,
+            course_name: "Building Web Applications in PHP",
+            platform: "Coursera",
+            institute: "University of Michigan",
+            date: "September 2020"
+        },
+        {
+            id: 5,
+            course_name: "Developing Cloud Applications with Node.js and React",
+            platform: "edX",
+            institute: "IBM",
+            date: "June 2021"
+        }
     ]
 }
