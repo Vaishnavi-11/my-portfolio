@@ -7,17 +7,18 @@ import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import { data } from './data'
 
 function App() {
   return (
     <main>
-      <Hero/>
-      <Navbar/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Hero data={data}/>
+      <Navbar resume={data.resume}/>
+      <About education={data.education} certification={data.certifications}/>
+      <Skills skills={data.skills}/>
+      <Projects projects={data.projects}/>
+      <Contact links={data.links} location={data.location}/>
+      <Footer data={data}/>
     </main>
   );
 }
