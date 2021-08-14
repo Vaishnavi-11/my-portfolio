@@ -1,8 +1,7 @@
 import React from 'react'
 import SkillCard from './SkillCard'
-import { data } from '../data'
 
-function Skills() {
+function Skills(props) {
     return (
         <div id="skills" className="skills">
             <div className="skill_heading">
@@ -11,7 +10,7 @@ function Skills() {
             </div>
             <div className="skill_content">
                 {
-                    data.skills.map((skill) => {
+                    props.skills.map((skill) => {
                         return <div style={{display:'inline-block'}} key={skill.id}>
                             <SkillCard skill={skill}/>
                         </div>
