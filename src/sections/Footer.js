@@ -1,20 +1,40 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 function Footer() {
     return (
         <div className="footer">
             <div className="footer_back">
                 <div className="backtotop">
-                    <a href="#hero"><i className="fa fa-chevron-up"></i></a>
+                    <Link activeClass="active" to="hero" spy={true} offset={-100} duration={500}>
+                        {/* <a href="#about">About</a> */}
+                        <i className="fa fa-chevron-up"></i>
+                    </Link>
                 </div>
             </div>
             <div className="footer_content">
                 <div className="footer_links">
                     <div className="footer_links_content">
-                        <a href="#about">About</a>|
+                        <Link activeClass="active" to="about" spy={true} offset={-100} duration={500}>
+                            {/* <a href="#about">About</a> */}
+                            About
+                        </Link>|
+                        <Link activeClass="active" to="skills" spy={true} offset={-100} duration={500}>
+                            {/* <a href="#about">About</a> */}
+                            Skills
+                        </Link>|
+                        <Link activeClass="active" to="projects" spy={true} offset={-100} duration={500}>
+                            {/* <a href="#about">About</a> */}
+                            Projects
+                        </Link>|
+                        <Link activeClass="active" to="contact" spy={true} offset={-100} duration={500}>
+                            {/* <a href="#about">About</a> */}
+                            Contact
+                        </Link>
+                        {/* <a href="#about">About</a>|
                         <a href="#skills">Skills</a>|
                         <a href="#projects">Projects</a>|
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Contact</a> */}
                     </div>
                 </div>
                 <div className="footer_contact">
