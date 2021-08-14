@@ -1,8 +1,7 @@
 import React , { useEffect, useState } from 'react'
 import { Link  } from 'react-scroll';
-import { data } from '../data'
 
-function Navbar() {
+function Navbar(props) {
     const [opacity,setOpacity] = useState(0);
 
     const controlNavbar = () => {
@@ -51,7 +50,7 @@ function Navbar() {
                         {/* <a href="#about">About</a> */}
                         Contact
                     </Link>
-                    <a href={data.resume} target="_blank" id="resume" rel="noreferrer">Get CV</a>
+                    <a href={props.resume} target="_blank" id="resume" rel="noreferrer">Get CV</a>
                 </div>
             </div>
         </div>
