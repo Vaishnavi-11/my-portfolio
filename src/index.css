@@ -37,7 +37,7 @@ body{
     justify-content: center;
     background-color: var(--body);
 }
-.hero .hero_top{
+.hero .hero_content .hero_top{
     position: absolute; 
     z-index: -1;
     width: 70%;
@@ -176,6 +176,47 @@ body{
     }
 }
 
+@media screen and (max-width: 1210px) {
+    .hero .hero_content .hero_text h1{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .hero .hero_content .hero_top,
+    .hero .hero_content .hero_bottom{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .hero .hero_content{
+        display: block;
+        position: relative;
+    }
+    .hero .hero_content .hero_text{
+        width: auto;
+        padding: 1em;
+        text-align: center;
+    }
+    .hero .hero_content .hero_text h4{
+        font-size: 2em;
+    }
+    .hero .hero_content .hero_text h3{
+        font-size: 1em;
+    }
+    .hero .hero_content .hero_text .copyEmail{
+        font-size: 0.8em;
+        width: 250px;
+    }
+    .hero .hero_content .hero_img{
+        padding: 0;
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+    }
+
+}
 
 
 /* ------------- Navbar ----------------- */
@@ -281,18 +322,76 @@ body{
 
 .about .about_content{
     width: 90%;
-    margin: 3em auto 5em auto;
+    margin: 3em auto 2em auto;
     padding: 2em;
 }
 
-.about .about_content h4{
-    font-size: 1.5em;
+.about .about_content .about_intro h4,
+.about .about_content .about_education h4,
+.about .about_content .about_certificates h4{
+    font-size: 1.65em;
     margin-bottom: 0.8em;
 }
 
-.about .about_content p{
+.about .about_content .about_intro p{
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+.about .about_content .about_intro{
+    margin-bottom: 4em;
+}
+.about .about_content .about_education{
+    margin: 0.8em 0 2em 0;
+}
+
+.about .about_content .about_education .about_education_content{
+    padding-left: 2em;
+}
+
+.about .about_content .about_education .about_education_content li{
+    padding: 0.8em;
+    list-style: none;
+}
+
+.about .about_content .about_education .about_education_content li::before{
+    font-family: "FontAwesome"; 
+    font-weight: 700; 
+    content: "\f192";
+    padding-right: 0.5em;
+}
+
+.about .about_content .about_education .about_education_content h5{
     font-size: 1.1em;
-    margin-bottom: 0.8em;
+}
+
+.about .about_content .about_education .about_education_content p{
+    font-weight: 400;
+    color: var(--card-body);
+}
+
+.about .about_content .about_certificates{
+    margin: 0.8em 0;
+}
+
+.about .about_content .about_certificates .about_certificates_content{
+    padding-left: 2em;
+}
+
+.about .about_content .about_certificates .about_certificates_content li{
+    padding: 0.8em;
+    list-style: none;
+}
+
+.about .about_content .about_certificates .about_certificates_content li::before{
+    font-family: "FontAwesome"; 
+    font-weight: 900; 
+    content: "\f00c";
+    padding-right: 0.5em;
+}
+
+.about .about_content .about_certificates .about_certificates_content h5{
+    font-size: 1.1em;
 }
 
 /* ------------- Skills ----------------- */
