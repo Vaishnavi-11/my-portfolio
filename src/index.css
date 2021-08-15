@@ -469,11 +469,9 @@ body{
 
 .about .about_content .about_intro{
     margin-bottom: 4em;
-    background-color: #E0777D;
 }
 .about .about_content .about_education{
     margin: 0.8em 0 2em 0;
-    background-color: bisque;
 }
 
 .about .about_content .about_education .about_education_content{
@@ -995,10 +993,10 @@ body{
     }
     .contact .contact_content .contact_links .link a i{
         font-size: 1.2em;
-        margin: 0;
+        margin: 0 0 1em 0;
     }
     .contact .contact_content .contact_location{
-        width: 100%
+        width: 100%;
     }
     .contact .contact_content .contact_location iframe{
         margin: 2em auto;
@@ -1025,7 +1023,8 @@ body{
 
 @media screen and (max-width: 840px) {
     .navbar{
-        width: 100vw;
+        width: 99.5vw;
+        top: 20px;
     }
     .navbar .navbar_content .nav_right{
         display: none;
@@ -1045,6 +1044,7 @@ body{
     .footer .footer_content .footer_copyrights{
         display: block;
         width: 100%;
+        font-size: 0.6em;
     }
     .about .about_content .about_education .about_education_content li::before,
     .about .about_content .about_certificates .about_certificates_content li::before{
