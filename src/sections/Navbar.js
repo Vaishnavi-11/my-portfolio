@@ -38,7 +38,7 @@ function Navbar(props) {
 
     return (
         // <div className={`navbar ${opacity && 'navbar_display'}`}>
-        <div className="navbar" style={{opacity:opacity,visibility:opacity?"visible":"hidden"}}>
+        <nav className="navbar" style={{opacity:opacity,visibility:opacity?"visible":"hidden"}}>
             <div className="navbar_content">
                 <div className="nav_left">
                     <Link activeClass="active" to="hero" spy={true} offset={-100} duration={500}>
@@ -91,7 +91,7 @@ function Navbar(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
 

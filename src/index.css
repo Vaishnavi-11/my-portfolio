@@ -10,6 +10,11 @@
 
 html{
     scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 *{
@@ -19,6 +24,9 @@ html{
 
 body{
     width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
     background-color: var(--body);
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -60,11 +68,11 @@ body{
 } 
 
 .hero .hero_content .hero_text{
-    width: 60%;
+    width: 50%;
     padding: 5em;
     z-index: 3;
     text-align: left;
-    animation: fadeleft 1.2s linear;
+    animation: faderight 1.2s linear;
 }
 
 .hero .hero_content .hero_text h1{
@@ -116,7 +124,7 @@ body{
     width: 30%;
     margin: 0 auto;
     padding: 5em;
-    animation: faderight 1.2s linear;
+    animation: fadeleft 1.2s linear;
 }
 
 .hero .hero_content .hero_img img{
@@ -181,6 +189,7 @@ body{
 /* ------------- Navbar ----------------- */
 
 .navbar{
+    display: block;
     position: fixed;
     top: 0;
     width: 100%;
@@ -270,7 +279,7 @@ body{
 } */
 
 .navbar .navbar_content .nav_right_mobile{
-    width: 80%;
+    width: 70%;
     display: none;
 }
 
@@ -335,7 +344,7 @@ body{
   
 .navbar .navbar_content .nav_right_mobile .menu {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
@@ -438,6 +447,7 @@ body{
 /* ------------- About ----------------- */
 .about{
     margin: 0em 5em;
+    width: 100%;
 }
 
 .about .about_heading h2{
@@ -453,14 +463,15 @@ body{
 .about .about_content{
     width: 90%;
     margin: 3em auto 2em auto;
-    padding: 2%;
+    /* padding: 2%; */
 }
 
 .about .about_content .about_intro h4,
 .about .about_content .about_education h4,
 .about .about_content .about_certificates h4{
     font-size: 1.65em;
-    margin-bottom: 0.8em;
+    margin: 0 0 0.8em 0;
+    padding: unset;
 }
 
 .about .about_content .about_intro p{
@@ -482,13 +493,7 @@ body{
 .about .about_content .about_education .about_education_content li{
     padding: 0.8em;
     list-style: none;
-}
-
-.about .about_content .about_education .about_education_content li::before{
-    font-family: "FontAwesome"; 
-    font-weight: 700; 
-    content: "\f192";
-    padding-right: 0.5em;
+    vertical-align: text-top;
 }
 
 .about .about_content .about_education .about_education_content h5{
@@ -527,6 +532,7 @@ body{
 /* ------------- Skills ----------------- */
 .skills{
     margin: 0em 5em;
+    width: 100%;
 }
 
 .skills .skill_heading h2{
@@ -608,6 +614,7 @@ body{
 /* ------------- Projects ----------------- */
 .projects{
     margin: 0em 5em;
+    width: 100%;
 }
 
 .projects .project_heading h2{
@@ -747,6 +754,7 @@ body{
 /* ------------- Contact ----------------- */
 .contact{
     margin: 0em 5em;
+    width: 100%;
 }
 
 .contact .contact_heading h2{
@@ -869,13 +877,14 @@ body{
 
 /* ------------- Footer ----------------- */
 .footer{
+    width: 100%;
     height: -25vh;
     background-color: var(--heading);
     color: var(--body);
 }
 
 .footer .footer_back{
-    width: 100%;
+    /* width: 100%; */
     display: block;
     position: relative;
     top: -18px;
