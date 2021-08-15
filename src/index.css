@@ -18,6 +18,7 @@ html{
 }
 
 body{
+    width: 100%;
     background-color: var(--body);
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -208,7 +209,7 @@ body{
 
 .navbar .navbar_content .nav_right {
     display: flex;
-    width: 80%;
+    width: 70%;
     float: right;
     justify-content: center;
     align-items: center;
@@ -1021,11 +1022,7 @@ body{
     }
 }
 
-@media screen and (max-width: 840px) {
-    .navbar{
-        width: 100vw;
-        top: 20px;
-    }
+@media screen and (max-width: 890px) {
     .navbar .navbar_content .nav_right{
         display: none;
     }
@@ -1089,6 +1086,9 @@ body{
 }
 
 @media screen and (max-width: 600px){
+    html{
+        width: 600px;
+    }
     .about,.skills,.projects,.contact{
         margin: 0 1.3em;
     }
