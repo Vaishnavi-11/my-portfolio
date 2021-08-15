@@ -10,10 +10,10 @@ function About(props) {
             <div className="about_content">
                 <div className="about_intro">
                     <h4>Hello there!</h4>
-                    <p>Myself Vaishnavi and here's a little about me ....</p> 
+                    <p>Myself Vaishnavi and here's a little about me....</p> 
                     <p>I'm 20 years of age and am based in Bengaluru, Karnataka. 
-                        Currently a second-year student pursuing my Bachelors of Engineering Degree at B.M.S College of Engineering. 
-                        I am a dedicated and hard-working person. I enjoy coding and this is what drives me to explore and strenghten my knowledge.
+                        Currently a second-year student pursuing my Bachelors of Engineering Degree at B.M.S College of Engineering. </p>
+                    <p>I am a dedicated and hard-working person. I enjoy coding and this is what drives me to explore and strenghten my knowledge.
                         I have persistently been focusing on learning new frameworks and trying to work on the ones best suited to my interests and hope to continue the same </p>
                     <p>Apart from the geeky side, my other hobbies would be listening to music (just like most of us xD). I do love to read
                         books, sketch or play some video games during my free time.</p>

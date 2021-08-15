@@ -447,7 +447,7 @@ body{
 /* ------------- About ----------------- */
 .about{
     margin: 0em 5em;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .about .about_heading h2{
@@ -471,7 +471,6 @@ body{
 .about .about_content .about_certificates h4{
     font-size: 1.65em;
     margin: 0 0 0.8em 0;
-    padding: unset;
 }
 
 .about .about_content .about_intro p{
@@ -484,6 +483,7 @@ body{
 }
 .about .about_content .about_education{
     margin: 0.8em 0 2em 0;
+    /* padding-right: 5em; */
 }
 
 .about .about_content .about_education .about_education_content{
@@ -532,7 +532,7 @@ body{
 /* ------------- Skills ----------------- */
 .skills{
     margin: 0em 5em;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .skills .skill_heading h2{
@@ -614,7 +614,7 @@ body{
 /* ------------- Projects ----------------- */
 .projects{
     margin: 0em 5em;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .projects .project_heading h2{
@@ -754,7 +754,7 @@ body{
 /* ------------- Contact ----------------- */
 .contact{
     margin: 0em 5em;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .contact .contact_heading h2{
@@ -992,35 +992,34 @@ body{
 @media screen and (max-width: 1100px){
     .contact .contact_content{
         display: block;
-        width: 100%;
-        padding: 1%;
+        padding: 2em;
     }
     .contact .contact_content .contact_links{
         width: 100%;
-        margin: 2em 0 0 0 ;
+        position: static;
+        clear: both;
         padding: 0;
-        font-size: 0.8em;
     }
     .contact .contact_content .contact_links .link a i{
-        font-size: 1.2em;
         margin: 0 0 1em 0;
     }
     .contact .contact_content .contact_location{
         width: 100%;
+        clear: both;
+        position: relative;
     }
     .contact .contact_content .contact_location iframe{
         margin: 2em auto;
         height: auto;
     }
-
     .contact_form_content{
+        margin-right: 5em;
         padding: 0 0 5em 0;
     }
-
     .contact_form_content .contact_form .form_group input,
     .contact_form_content .contact_form .form_group label,
     .contact_form_content .contact_form .form_group textarea{
-        width: 50%;
+        width: 80%;
     }
 }
 
@@ -1035,22 +1034,19 @@ body{
     .navbar .navbar_content .nav_right{
         display: none;
     }
-    .navbar .navbar_content .nav_left h1{
-        font-size: 1.2em;
-    }
     .navbar .navbar_content .nav_right_mobile{
         display: block;
     }
 
     .navbar .navbar_content .nav_right_mobile ul{
-        font-size: 0.5em;
+        font-size: 1em;
     }
     .footer .footer_content .footer_links,
     .footer .footer_content .footer_contact,
     .footer .footer_content .footer_copyrights{
         display: block;
         width: 100%;
-        font-size: 0.6em;
+        font-size: 1em;
     }
     .about .about_content .about_education .about_education_content li::before,
     .about .about_content .about_certificates .about_certificates_content li::before{
@@ -1071,14 +1067,13 @@ body{
         text-align: center;
     }
     .hero .hero_content .hero_text h1{
-        font-size: 2em;
+        font-size: 2.5em;
     }
-    .hero .hero_content .hero_text h3{
-        font-size: 1em;
+    .hero .hero_content .hero_text p{
+        padding: 0 1.8em;
     }
     .hero .hero_content .hero_text .copyEmail{
-        font-size: 0.8em;
-        width: 250px;
+        margin-top: 2.5em;
     }
     .hero .hero_content .hero_img{
         padding: 0;
@@ -1088,25 +1083,17 @@ body{
     }
     .hero .hero_content .hero_img img{
         width: 100%;
-        max-width: 220px;
+        max-width: 50px;
         margin-top: 1em;
     }
-
+    .hero .scroll{
+        margin-top: 0.5em;
+    }
 }
 
 @media screen and (max-width: 600px){
-    html{
-        width: 600px;
-    }
     .about,.skills,.projects,.contact{
         margin: 0 1.3em;
-    }
-    .about .about_heading h2,
-    .skills .skill_heading h2,
-    .projects .project_heading h2,
-    .contact .contact_heading h2{
-        font-size: 1.5em;
-        margin: 0.5em 0 0 0;
     }
     .about .about_heading p,
     .skills .skill_heading p,
@@ -1121,66 +1108,42 @@ body{
     .about .about_content .about_intro h4,
     .about .about_content .about_education h4,
     .about .about_content .about_certificates h4{
-        font-size: 100%;
         margin-bottom: 0.1em;
     }
-
-    .about .about_content .about_intro p,
-    .about .about_content .about_education .about_education_content p,
-    .about .about_content .about_certificates .about_certificates_content p{
-        font-size: 60%;
-    }
     .about .about_content .about_intro{
-        margin-bottom: 2em;
+        margin: 3em 1.5em;
+        text-align: center;
+    }
+    .about .about_content .about_intro p{
+        font-size: 1.15em;
     }
     .about .about_content .about_education .about_education_content,
     .about .about_content .about_certificates .about_certificates_content{
         padding: 0.1em;
     }
-    .about .about_content .about_education .about_education_content h5,
-    .about .about_content .about_certificates .about_certificates_content h5{
-        font-size: 70%;
-    }
     .skills .skill_content{
-        margin: 1em auto;
+        margin: 2em auto;
+        padding-bottom: 2em;
     }
-    .skills .skill_content .skill_card,
+    .skills .skill_content .skill_card{
+        width: 250px;
+        height: 350px;
+        margin: 2em 0;
+    }
     .projects .project_content .project_card{
-        width: 200px;
-        height: 220px;
-        margin: 2em 3em;
+        width: 250px;
+        height: 320px;
     }
     .skills .skill_content .skill_card .skill_card_content .card_icon{
-        font-size: 1em;
-        padding: 0.5em;
-        top: -16px;
-        width: 20px;
-    }
-    .skills .skill_content .skill_card .skill_card_content .card_heading{
-        font-size: 1em;
-    }
-    .skills .skill_content .skill_card .skill_card_content .card_content li{
-        font-size: 0.6em;
+        top: -30px;
+        width: 30px;
+        font-size: 1.8em;
     }
 
     .projects .project_content{
         padding: 0 ;
     }
-    .projects .project_content .project_card .project_card_content .card_front .card_title{
-        font-size: 0.8em;
-    }
-    .projects .project_content .project_card .project_card_content .card_back .card_description h4,
-    .projects .project_content .project_card .project_card_content .card_back .card_language h4,
-    .projects .project_content .project_card .project_card_content .card_back .card_repo h4{
-        font-size: 0.6em;
-    }
-    .projects .project_content .project_card .project_card_content .card_back .card_description p,
-    .projects .project_content .project_card .project_card_content .card_back .card_language p,
-    .projects .project_content .project_card .project_card_content .card_back .card_repo p{
-        font-size: 0.55em;
-    }
-    .projects .project_content .project_card .project_card_content .card_front .flip,
-    .projects .project_content .project_card .project_card_content .card_back .flip{
-        font-size: 0.75em;
+    .projects .project_content .project_card .project_card_content .card_back .card_description{
+        margin-bottom: 2em;
     }
 }
