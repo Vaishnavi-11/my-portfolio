@@ -1023,7 +1023,7 @@ body{
 
 @media screen and (max-width: 840px) {
     .navbar{
-        width: 99.5vw;
+        width: 100vw;
         top: 20px;
     }
     .navbar .navbar_content .nav_right{
