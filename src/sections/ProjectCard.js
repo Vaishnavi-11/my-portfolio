@@ -26,7 +26,7 @@ function ProjectCard(props) {
                         <p>{props.project.description}</p>
                     </div>
                     <div className="card_language">
-                        <h4>Language/s Used:</h4>
+                        <h4>Language/s & Tools Used:</h4>
                         <p>{props.project.languages}</p>
                     </div>
                     <div className="card_repo">

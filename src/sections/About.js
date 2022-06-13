@@ -11,14 +11,14 @@ function About(props) {
                 <div className="about_intro">
                     <h4>Hello there!</h4>
                     <p>Myself Vaishnavi and here's a little about me....</p> 
-                    <p>I'm 20 years of age and am based in Bengaluru, Karnataka. 
-                        Currently a second-year student pursuing my Bachelors of Engineering Degree at B.M.S College of Engineering. </p>
-                    <p>I am a dedicated and hard-working person. I enjoy coding and this is what drives me to explore and strenghten my knowledge.
+                    <p>I'm 21 years of age and am based in Bengaluru, Karnataka. 
+                        Currently a third-year student pursuing my Bachelors of Engineering Degree at B.M.S College of Engineering. </p>
+                    <p>I am a dedicated and hard-working person. I enjoy coding and this is what drives me to explore and strengthen my knowledge.
                         I have persistently been focusing on learning new frameworks and trying to work on the ones best suited to my interests and hope to continue the same </p>
-                    <p>Apart from the geeky side, my other hobbies would be listening to music (just like most of us xD). I do love to read
+                    <p>Apart from this, my other hobbies would be listening to music. I do love to read
                         books, sketch or play some video games during my free time.</p>
                 </div>
-                <div className="about_education">
+                {/* <div className="about_education">
                     <h4>Education</h4>
                     {
                         props.education.map((education) => {
@@ -35,8 +35,8 @@ function About(props) {
                             </ul>
                         })
                     }
-                </div>
-                <div className="about_certificates">
+                </div> */}
+                {/* <div className="about_certificates">
                     <h4>Certifications</h4>
                     {
                         props.certification.map((certificate) => {
@@ -51,7 +51,7 @@ function About(props) {
                             </ul>
                         })
                     }
-                </div>
+                </div> */}
             </div>
         </div>
     )

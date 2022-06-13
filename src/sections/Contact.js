@@ -29,14 +29,11 @@ function Contact(props) {
                         </a>
                     </div>
                     <div className="link">
-                        <a href={props.links.whatsapp} target="_blank" rel="noreferrer" style={{color:'#075E54'}}>
-                            <i className="fa fa-whatsapp"></i>
-                            <p>WhatsApp</p>
+                        <a href={props.links.github} target="_blank" rel="noreferrer" style={{color:'#171515'}}>
+                            <i className="fa fa-github"></i>
+                            <p>GitHub</p>
                         </a>
                     </div>
-                </div>
-                <div className="contact_location">
-                    <iframe title="map" src={props.location} style={{border:0}} loading="lazy"></iframe>
                 </div>
                 <ContactForm />
             </div>

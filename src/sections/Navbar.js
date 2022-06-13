@@ -58,7 +58,7 @@ function Navbar(props) {
                     <Link activeClass="active" to="contact" spy={true} offset={-100} duration={500}>
                         Contact
                     </Link>
-                    <a href={props.resume} target="_blank" id="resume" rel="noreferrer">Get CV</a>
+                    <a href={props.resume} target="_blank" id="resume" rel="noreferrer">Get Resume</a>
                 </div>
                 <div className="nav_right_mobile">
                     <div id="menuArea">

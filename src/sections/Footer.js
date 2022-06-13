@@ -33,12 +33,12 @@ function Footer(props) {
                         <a href={props.data.links.linkedin} target="_blank" rel="noreferrer"><i className="fa fa-linkedin"></i></a>
                         <a href={props.data.links.instagram} target="_blank" rel="noreferrer"><i className="fa fa-instagram"></i></a>
                         <a href={props.data.links.facebbook} target="_blank" rel="noreferrer"><i className="fa fa-facebook-f"></i></a>
-                        <a href={props.data.links.whatsapp} target="_blank" rel="noreferrer"><i className="fa fa-whatsapp"></i></a>
+                        <a href={props.data.links.github} target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a>
                     </div>
                 </div>
                 <div className="footer_copyrights">
                     <div className="footer_copyrights_content">
-                        <p>&copy; 2021 Vaishnavi N</p>
+                        <p>&copy; 2022 Vaishnavi N</p>
                     </div>
                 </div>
             </div>
