@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.7ef90849.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.e70a39e1.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.e70a39e1.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.0bd9a545.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.0bd9a545.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.83b30bc4.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.83b30bc4.js.map",
     "static/css/2.9acaf0bb.chunk.css": "/my-portfolio/static/css/2.9acaf0bb.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.9acaf0bb.chunk.css.map": "/my-portfolio/static/css/2.9acaf0bb.chunk.css.map",
     "static/css/main.7ef90849.chunk.css.map": "/my-portfolio/static/css/main.7ef90849.chunk.css.map",
     "static/js/2.6b1ec82f.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.6b1ec82f.chunk.js.LICENSE.txt",
-    "static/media/VaishnaviN_Resume.de4151fc.pdf": "/my-portfolio/static/media/VaishnaviN_Resume.de4151fc.pdf",
+    "static/media/VaishnaviN_Resume.0c69c2a3.pdf": "/my-portfolio/static/media/VaishnaviN_Resume.0c69c2a3.pdf",
     "static/media/font-awesome.min.css": "/my-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/me.e5a4efa1.jpg": "/my-portfolio/static/media/me.e5a4efa1.jpg",
     "static/media/project1.26886374.png": "/my-portfolio/static/media/project1.26886374.png",
@@ -26,6 +26,6 @@
     "static/css/2.9acaf0bb.chunk.css",
     "static/js/2.6b1ec82f.chunk.js",
     "static/css/main.7ef90849.chunk.css",
-    "static/js/main.e70a39e1.chunk.js"
+    "static/js/main.0bd9a545.chunk.js"
   ]
 }
