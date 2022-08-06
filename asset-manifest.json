@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.288d105a.chunk.css",
+    "main.css": "/my-portfolio/static/css/main.d88ba89f.chunk.css",
     "main.js": "/my-portfolio/static/js/main.3864cf53.chunk.js",
     "main.js.map": "/my-portfolio/static/js/main.3864cf53.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.83b30bc4.js",
@@ -10,7 +10,7 @@
     "static/js/2.6b1ec82f.chunk.js.map": "/my-portfolio/static/js/2.6b1ec82f.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/2.9acaf0bb.chunk.css.map": "/my-portfolio/static/css/2.9acaf0bb.chunk.css.map",
-    "static/css/main.288d105a.chunk.css.map": "/my-portfolio/static/css/main.288d105a.chunk.css.map",
+    "static/css/main.d88ba89f.chunk.css.map": "/my-portfolio/static/css/main.d88ba89f.chunk.css.map",
     "static/js/2.6b1ec82f.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.6b1ec82f.chunk.js.LICENSE.txt",
     "static/media/VaishnaviN_Resume.59752cc1.pdf": "/my-portfolio/static/media/VaishnaviN_Resume.59752cc1.pdf",
     "static/media/androidstudio.554010a1.png": "/my-portfolio/static/media/androidstudio.554010a1.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.83b30bc4.js",
     "static/css/2.9acaf0bb.chunk.css",
     "static/js/2.6b1ec82f.chunk.js",
-    "static/css/main.288d105a.chunk.css",
+    "static/css/main.d88ba89f.chunk.css",
     "static/js/main.3864cf53.chunk.js"
   ]
 }
