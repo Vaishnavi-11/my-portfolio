@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.7ef90849.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.0bd9a545.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.0bd9a545.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.288d105a.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.3864cf53.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.3864cf53.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.83b30bc4.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.83b30bc4.js.map",
     "static/css/2.9acaf0bb.chunk.css": "/my-portfolio/static/css/2.9acaf0bb.chunk.css",
@@ -10,22 +10,37 @@
     "static/js/2.6b1ec82f.chunk.js.map": "/my-portfolio/static/js/2.6b1ec82f.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/2.9acaf0bb.chunk.css.map": "/my-portfolio/static/css/2.9acaf0bb.chunk.css.map",
-    "static/css/main.7ef90849.chunk.css.map": "/my-portfolio/static/css/main.7ef90849.chunk.css.map",
+    "static/css/main.288d105a.chunk.css.map": "/my-portfolio/static/css/main.288d105a.chunk.css.map",
     "static/js/2.6b1ec82f.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.6b1ec82f.chunk.js.LICENSE.txt",
-    "static/media/VaishnaviN_Resume.0c69c2a3.pdf": "/my-portfolio/static/media/VaishnaviN_Resume.0c69c2a3.pdf",
+    "static/media/VaishnaviN_Resume.59752cc1.pdf": "/my-portfolio/static/media/VaishnaviN_Resume.59752cc1.pdf",
+    "static/media/androidstudio.554010a1.png": "/my-portfolio/static/media/androidstudio.554010a1.png",
+    "static/media/c.bc361786.jpg": "/my-portfolio/static/media/c.bc361786.jpg",
+    "static/media/css.0f117966.jpg": "/my-portfolio/static/media/css.0f117966.jpg",
     "static/media/font-awesome.min.css": "/my-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/github.2d85fb70.png": "/my-portfolio/static/media/github.2d85fb70.png",
+    "static/media/html.d8736704.png": "/my-portfolio/static/media/html.d8736704.png",
+    "static/media/java.954b8424.png": "/my-portfolio/static/media/java.954b8424.png",
+    "static/media/javascript.dd493364.png": "/my-portfolio/static/media/javascript.dd493364.png",
+    "static/media/linux.24a26a2e.png": "/my-portfolio/static/media/linux.24a26a2e.png",
     "static/media/me.e5a4efa1.jpg": "/my-portfolio/static/media/me.e5a4efa1.jpg",
+    "static/media/mongodb.369dd398.png": "/my-portfolio/static/media/mongodb.369dd398.png",
+    "static/media/mysql.40bd5cfd.png": "/my-portfolio/static/media/mysql.40bd5cfd.png",
+    "static/media/php.f69858c9.png": "/my-portfolio/static/media/php.f69858c9.png",
     "static/media/project1.26886374.png": "/my-portfolio/static/media/project1.26886374.png",
     "static/media/project2.b23a906c.png": "/my-portfolio/static/media/project2.b23a906c.png",
     "static/media/project3.b282126a.png": "/my-portfolio/static/media/project3.b282126a.png",
     "static/media/project4.fd81658c.JPG": "/my-portfolio/static/media/project4.fd81658c.JPG",
-    "static/media/project5.b6758ae0.jpg": "/my-portfolio/static/media/project5.b6758ae0.jpg"
+    "static/media/project5.b6758ae0.jpg": "/my-portfolio/static/media/project5.b6758ae0.jpg",
+    "static/media/project6.b3c102d9.png": "/my-portfolio/static/media/project6.b3c102d9.png",
+    "static/media/python.875c48bf.jpg": "/my-portfolio/static/media/python.875c48bf.jpg",
+    "static/media/reactjs.6bcffb56.png": "/my-portfolio/static/media/reactjs.6bcffb56.png",
+    "static/media/vscode.e6640075.png": "/my-portfolio/static/media/vscode.e6640075.png"
   },
   "entrypoints": [
     "static/js/runtime-main.83b30bc4.js",
     "static/css/2.9acaf0bb.chunk.css",
     "static/js/2.6b1ec82f.chunk.js",
-    "static/css/main.7ef90849.chunk.css",
-    "static/js/main.0bd9a545.chunk.js"
+    "static/css/main.288d105a.chunk.css",
+    "static/js/main.3864cf53.chunk.js"
   ]
 }
