@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.d88ba89f.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.3864cf53.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.3864cf53.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.d4483c4f.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.d4483c4f.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.83b30bc4.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.83b30bc4.js.map",
     "static/css/2.9acaf0bb.chunk.css": "/my-portfolio/static/css/2.9acaf0bb.chunk.css",
@@ -32,6 +32,7 @@
     "static/media/project4.fd81658c.JPG": "/my-portfolio/static/media/project4.fd81658c.JPG",
     "static/media/project5.b6758ae0.jpg": "/my-portfolio/static/media/project5.b6758ae0.jpg",
     "static/media/project6.b3c102d9.png": "/my-portfolio/static/media/project6.b3c102d9.png",
+    "static/media/project7.b31e4c5e.png": "/my-portfolio/static/media/project7.b31e4c5e.png",
     "static/media/python.875c48bf.jpg": "/my-portfolio/static/media/python.875c48bf.jpg",
     "static/media/reactjs.6bcffb56.png": "/my-portfolio/static/media/reactjs.6bcffb56.png",
     "static/media/vscode.e6640075.png": "/my-portfolio/static/media/vscode.e6640075.png"
@@ -41,6 +42,6 @@
     "static/css/2.9acaf0bb.chunk.css",
     "static/js/2.6b1ec82f.chunk.js",
     "static/css/main.d88ba89f.chunk.css",
-    "static/js/main.3864cf53.chunk.js"
+    "static/js/main.d4483c4f.chunk.js"
   ]
 }
