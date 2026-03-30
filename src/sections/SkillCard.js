@@ -8,7 +8,7 @@ function SkillCard(props) {
                 <i className={props.skill.icon}></i>
                 </div>
                 <div className="card_heading">
-                    <h3>-- {props.skill.name} --</h3>
+                    <h3>-- {props.skill.id} --</h3>
                 </div>
                 <div className="card_content">
                     {
